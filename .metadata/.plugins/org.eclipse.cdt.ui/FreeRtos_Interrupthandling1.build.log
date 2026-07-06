@@ -1,0 +1,10 @@
+19:55:48 **** Incremental Build of configuration Debug for project FreeRtos_Interrupthandling1 ****
+make -j12 all 
+arm-none-eabi-size  FreeRtos_Interrupthandling1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	     96	  20888	  42012	   a41c	FreeRtos_Interrupthandling1.elf
+Finished building: default.size.stdout
+ 
+
+19:55:48 Build Finished. 0 errors, 0 warnings. (took 147ms)
+

@@ -1,18 +1,21 @@
-19:32:37 **** Incremental Build of configuration Debug for project FreeRtos_Cooperativesched ****
+19:55:16 **** Incremental Build of configuration Debug for project FreeRtos_Interrupthandling1 ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:207:3: warning: "/*" within comment [-Wcomment]
-  207 |   /* USER CODE BEGIN RTOS_EVENTS */
-      |    
-arm-none-eabi-gcc -o "FreeRtos_Cooperativesched.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sakshi/CDAC_classwork/RTOS/FreeRtos_Cooperativesched/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FreeRtos_Cooperativesched.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: FreeRtos_Cooperativesched.elf
+arm-none-eabi-gcc -o "FreeRtos_Interrupthandling1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sakshi/CDAC_classwork/RTOS/FreeRtos_Interrupthandling1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FreeRtos_Interrupthandling1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FreeRtos_Interrupthandling1.elf
  
-arm-none-eabi-size  FreeRtos_Cooperativesched.elf 
-arm-none-eabi-objdump -h -S FreeRtos_Cooperativesched.elf  > "FreeRtos_Cooperativesched.list"
+arm-none-eabi-size  FreeRtos_Interrupthandling1.elf 
+arm-none-eabi-objdump -h -S FreeRtos_Interrupthandling1.elf  > "FreeRtos_Interrupthandling1.list"
    text	   data	    bss	    dec	    hex	filename
-  22620	     96	  20960	  43676	   aa9c	FreeRtos_Cooperativesched.elf
+  21028	     96	  20888	  42012	   a41c	FreeRtos_Interrupthandling1.elf
 Finished building: default.size.stdout
  
-Finished building: FreeRtos_Cooperativesched.list
+Finished building: FreeRtos_Interrupthandling1.list
+ 
+19:55:48 **** Incremental Build of configuration Debug for project FreeRtos_Interrupthandling1 ****
+make -j12 all 
+arm-none-eabi-size  FreeRtos_Interrupthandling1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	     96	  20888	  42012	   a41c	FreeRtos_Interrupthandling1.elf
+Finished building: default.size.stdout
  

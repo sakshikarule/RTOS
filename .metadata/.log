@@ -16,3 +16,11 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-07-06 18:34:04.071
 !MESSAGE Indexed 'FreeRtos_Cooperativesched' (34 sources, 100 headers) in 2.3 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+
+!ENTRY org.eclipse.core.resources 2 2 2026-07-06 19:37:37.089
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-07-06 19:37:37.089
+!MESSAGE The project description file (.project) for 'FreeRtos_Cooperativesched' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-06 19:40:31.540
+!MESSAGE Indexed 'FreeRtos_Interrupthandling1' (19 sources, 81 headers) in 1.86 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
