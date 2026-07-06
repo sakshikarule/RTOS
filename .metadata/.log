@@ -1,0 +1,18 @@
+!SESSION 2026-07-06 18:30:48.309 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-07-06 18:31:01.274
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-06 18:31:01.275
+!MESSAGE Log4j2 initialized with config file /home/sakshi/CDAC_classwork/RTOS/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-06 18:31:03.695
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-06 18:34:04.071
+!MESSAGE Indexed 'FreeRtos_Cooperativesched' (34 sources, 100 headers) in 2.3 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
